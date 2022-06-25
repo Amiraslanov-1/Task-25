@@ -1,0 +1,435 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 5000px;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #032642d3;
+  height: 90px;
+  z-index: 99;
+}
+
+header nav {
+  padding: 25px;
+}
+
+header nav .list ul li {
+  list-style: none;
+  margin-right: 3vw;
+  font-size: 20px;
+}
+
+header nav .list ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+header nav .right {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-weight: 600;
+  margin-top: -5px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+header nav .right i {
+  margin-left: 4%;
+  color: white;
+}
+
+header nav .hamburger-menu {
+  display: none !important;
+  color: white;
+  font-size: 25px;
+}
+
+header nav .hamburger-menu i {
+  margin-right: 2%;
+}
+
+main #First {
+  width: 100%;
+  margin-top: -100px;
+  height: 700px;
+  background: url(../img/logo/1.jpg);
+}
+
+main #First .content-box {
+  margin-top: 17%;
+  padding: 25px;
+}
+
+main #First .content-box h1 {
+  color: white;
+  font-size: 55px;
+}
+
+main #First .content-box p {
+  color: white;
+  margin: auto;
+  width: 48%;
+  font-size: 20px;
+}
+
+main #First .content-box .learn-btn {
+  color: white;
+  background-color: rgba(87, 89, 196, 0.603);
+}
+
+main #Features {
+  background-color: #032642;
+  height: 900px;
+  padding-top: 10%;
+}
+
+main #Features h1 {
+  color: white;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+main #Features .var {
+  color: #dadada;
+  margin: auto;
+  width: 45%;
+  font-size: 20px;
+}
+
+main #Features .main-cards h3 {
+  margin-top: 15px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+main #Features .main-cards p {
+  font-size: 16px;
+  color: #a3a0a0;
+}
+
+main #Help {
+  background-color: #031e33;
+  height: 1000px;
+  padding-top: 10%;
+}
+
+main #Help h1 {
+  color: white;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+main #Help .var {
+  color: #dadada;
+  margin: auto;
+  width: 45%;
+  font-size: 20px;
+}
+
+main #Help .img-box .icon-box {
+  z-index: 2;
+}
+
+main #Help .partnor-box {
+  margin-top: 5%;
+  background-color: #032642;
+}
+
+main #Help .partnor-box .partnor-img {
+  width: 100px;
+  height: 140px;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+main #Help .partnor-box .partnor-img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+main #Crafted {
+  background-color: #031e33;
+  height: 800px;
+  padding: 20px;
+}
+
+main #Crafted h1 {
+  color: white;
+}
+
+main #Crafted p {
+  font-size: 22px;
+  color: #a1a1a1;
+}
+
+main #Crafted .elements {
+  margin-top: 20px;
+}
+
+main #Crafted .elements span {
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+main #Crafted .elements span i {
+  font-size: 30px;
+}
+
+main #Crafted hr {
+  margin: auto;
+  color: #868686;
+  width: 80%;
+  height: 4px;
+  margin-top: 100px;
+}
+
+main #Support {
+  background-color: #031e33;
+  height: 700px;
+  padding: 20px;
+}
+
+main #Support .support-text h3 {
+  color: white;
+}
+
+main #Support .support-text p {
+  color: white;
+  width: 65%;
+}
+
+main #Says {
+  background-color: #032642;
+  height: 700px;
+  padding-top: 10%;
+}
+
+main #Says h1 {
+  color: white;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+main #Says .var {
+  color: #dadada;
+  margin: auto;
+  width: 45%;
+  font-size: 20px;
+}
+
+main #Says .stars-box i {
+  color: yellow;
+  margin-right: 2px;
+}
+
+main #Says .user-box {
+  padding: 15px;
+  background-color: #20205a96;
+}
+
+main #Says .user-info-text {
+  margin-left: 5%;
+}
+
+main #Pricing {
+  background-color: #031e33;
+  height: 900px;
+  padding-top: 5%;
+}
+
+main #Pricing h1 {
+  color: white;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+main #Pricing .var {
+  color: #dadada;
+  margin: auto;
+  width: 45%;
+  font-size: 20px;
+}
+
+main #Pricing .compania p {
+  color: white;
+  font-size: 20px;
+}
+
+main #Pricing .compania input {
+  width: 60px;
+  height: 30px;
+}
+
+main #Pricing .compania p:first-child {
+  margin-right: 2%;
+}
+
+main #Pricing .compania p:last-child {
+  margin-left: 2%;
+}
+
+main #Pricing .pricing-card {
+  border-radius: 25px;
+  padding: 30px;
+  background-color: #20205a96;
+}
+
+main #Pricing .pricing-card h3 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+main #Pricing .pricing-card p {
+  color: #cfcfcf;
+  font-size: 19px;
+}
+
+main #Pricing .pricing-card .Start {
+  width: 90%;
+  margin: 30px auto;
+  height: 45px;
+}
+
+main #Pricing .pricing-card hr {
+  color: #acabab;
+  width: 80%;
+  margin-left: 5%;
+}
+
+main #Pricing .pricing-card .elements span {
+  color: #a0a0a0;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+main #Pricing .pricing-card .elements span i {
+  font-size: 15px;
+}
+
+main #Blogs {
+  background-color: #031e33;
+  height: 800px;
+  padding-top: 5%;
+}
+
+main #Blogs h1 {
+  color: white;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+main #Blogs .var {
+  color: #dadada;
+  margin: auto;
+  width: 45%;
+  font-size: 20px;
+}
+
+main #Blogs .blogs-card .blog-text p {
+  color: #9c9c9c;
+  font-size: 20px;
+}
+
+main #Blogs .blogs-card .blog-footer .img-box {
+  margin-top: 2%;
+}
+
+main #Blogs .blogs-card .blog-footer .blog-info-text {
+  padding: 5px;
+  height: 65px;
+  margin-left: 2%;
+  margin-right: 5%;
+  border-right: 1px solid gray;
+}
+
+main #Blogs .blogs-card .blog-footer .date {
+  padding: 5px;
+}
+
+main #contact {
+  background-color: #031e33;
+  height: 800px;
+  padding-top: 5%;
+}
+
+main #contact h1,
+main #contact p {
+  color: white;
+}
+
+main #contact input,
+main #contact textarea {
+  background-color: #0a2e49;
+}
+
+main #contact .Ticket {
+  background-color: #0a2e49;
+}
+
+main #contact .subscribe {
+  background-color: #0a2e49;
+}
+
+main #contact .subscribe h3 {
+  color: white;
+}
+
+main #contact .subscribe p {
+  color: gray;
+}
+
+main #contact .subscribe hr {
+  color: gray;
+  height: 2px;
+}
+
+@media (max-width: 992px) {
+  nav .list ul {
+    display: none;
+  }
+  nav .list ul li {
+    display: none;
+  }
+  nav .hamburger-menu {
+    display: block !important;
+  }
+  header .right {
+    display: none !important;
+  }
+  #Features {
+    height: 1700px !important;
+  }
+  #Support {
+    height: 1450px !important;
+    padding-top: 400px !important;
+  }
+  #Says {
+    height: 1200px !important;
+  }
+  #Pricing {
+    height: 1900px !important;
+  }
+  #Blogs {
+    height: 1800px !important;
+  }
+    #contact {
+        height: 1300px !important;
+        padding-top: 160px !important;
+    }
+
+}
+/*# sourceMappingURL=style.css.map */
